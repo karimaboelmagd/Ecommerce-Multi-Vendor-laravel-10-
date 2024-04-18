@@ -28,14 +28,14 @@ class UsersTableSeeder extends Seeder
 
             ],
 
-            // Vendor
+            // Seller
 
             [
-                'full_name'=>'Karim Vendor',
-                'username'=>'Vendor',
-                'email'=>'vendor@gmail.com',
+                'full_name'=>'Karim Seller',
+                'username'=>'Seller',
+                'email'=>'seller@gmail.com',
                 'password'=>Hash::make('111'),
-                'role'=>'vendor',
+                'role'=>'seller',
                 'status'=>'active',
 
             ],

@@ -16,6 +16,8 @@
 
 <link rel="stylesheet" href="{{asset('backend/assets/vendor/jquery-datatable/dataTables.bootstrap4.min.css')}}">
 
+<link rel="stylesheet" href="{{asset('backend/assets/vendor/switch-button-bootstrap/css/bootstrap-switch-button.css')}}">
+">
 
 {{-- Summernote --}}
 <link rel="stylesheet" href="{{asset('backend/assets/summernote/summernote.css')}}">

@@ -49,13 +49,14 @@
                             <div class="row clearfix">
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <label for="">Title<span class="text-danger">*</span></label>
+                                        <label for="">Title</label>
                                         <input type="text" class="form-control" placeholder="Title" name="title" value="{{old('title')}}">
                                     </div>
                                 </div>
+
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <label for="">Photo</label>
+                                        <label for="">Photo<span class="text-danger">*</span></label>
                                         <div class="input-group">
                                            <span class="input-group-btn">
                                              <a id="lfm" data-input="thumbnail" data-preview="holder" class="btn btn-primary">
@@ -97,10 +98,8 @@
 
 
                             </div>
-                            <div class="col-sm-12">
                                 <button type="submit" class="btn btn-primary">Submit</button>
                                 <button type="submit" class="btn btn-outline-secondary">Cancel</button>
-                            </div>
                         </form>
                     </div>
                 </div>
